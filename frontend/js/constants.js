@@ -1,25 +1,25 @@
-const contractAddress = "YOUR CONTRACT ADDRESS"; //Replace with your own contract address
+const contractAddress = "0xD463507A2A769f72f6Bfa17c8c85c8512380E791"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
-const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
-const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
-const h1_presale_mint = "Pre-Sale Minting Open!!";
-const h1_public_mint = "Public Minting Open!!";
-const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
-const h2_presale_mint = "Public Minting Countdown";
-const p_presale_coming_soon = "We are working hard to launch the NFT Collection. Stay tuned for updates!";
-const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale.. 😢";
-const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale! 🎉";
-const p_presale_mint_already_minted = "You've already claimed your whitelist mint. Thank you! 🎉";
-const p_public_mint = "No whitelist needed. Public minting is now open! 🎉";
-const button_presale_coming_soon = "Get on the Whitelist";
-const button_presale_mint_whitelisted = "Mint Your Special NFT";
-const button_presale_mint_not_whitelisted = "Get on the Whitelist";
-const button_presale_already_minted = "Join The Community";
-const button_public_mint = "Mint Your NFT";
-const mint_failed = "Minting failed. 😢 Please try again.";
+const welcome_h1 = "Bienvendios a METABOXERS® by Alfonso Gomez!!";
+const welcome_h2 = "Conectar a MetaMask para comenzar";
+const welcome_p = 'METABOXERS® by Alfonso Gomez es el primer proyecto de NFTs por un Campeon de Boxeo para el ofrecerle a los boxeadores un Boxeo Decentralizado.  Dicha decentralizacion del boxeo le dara recursos y herramientas a los boxeadores para tener mas control de sus carreras, finanzas y vida como boxeador. Los NFTs de METABOXERS® dan acceso y governanza el primer DAO de Boxeo, METABOXERS® DAO, lo cual les dara recursos y herramientas a los Entusiastas del Boxeo de decidir que peleas quieren ver, cuanto pagarle a los boxeadores, quien gana las peleas, y cualquier decision dentro del ecosistema de METABOXERS® DAO. Mintea METABOXERS® hoy y se parte de la historia como el PRIMER fan de boxeo en tener un NFT del PRIMER proyecto de boxeo decentralizado para el PRIMER DAO de Boxeo en la historia. METABOXERS® by Alfonso Gomez is the first NFT proyect by a Boxing Champion to offer boxers a Decentralized Boxing.  Such decentralization of boxing will give boxers tools and resources to gain control of their careers, finances and life as a boxer.  The METABOXERS® NFTs give access and govenance to the first Boxing DAO in history, METABOXERS® DAO, which will give boxing enthusiasts tools and resources to decide which fights they want to see, how much to pay the boxers, who wins fights, and any decision withih METABOXERS® DAO ecosystem.  Mint your METABOXERS® today and be part of history as the FIRST boxing fan to have an NFT from the FIRST ever decentralized boxing project in the FIRST ever Boxing DAO.';
+const h1_presale_coming_soon = "Drop de NFT para METABOXERS® proximamente!! METABOXERS® NFT Drop Coming Soon!!";
+const h1_presale_mint = "Mint de Pre-Venta Abierto!! Pre-Sale Minting Open!!";
+const h1_public_mint = "Mint Publico Abrierto!! Public Minting Open!!";
+const h2_presale_coming_soon = "Conteo para Mint de Pre-Venta. Pre-Sale Minting Countdown";
+const h2_presale_mint = "Conteo para Mint Publico. Public Minting Countdown";
+const p_presale_coming_soon = "Estamos trabajando arduamente para lanzar las Colecciones y Ediciones de NFTs METABOXERS® by Alfonso Gomez.  Estate al pendiente para actualizaciones.  We are working hard to launch the METABOXERS® by Alfonso Gomez NFT Collections and Editions. Stay tuned for updates!";
+const p_presale_mint_not_whitelisted = "No estas WHITELISTED para la Pre-Venta.. 😢 You are not WHITELISTED for the pre-sale.. 😢";
+const p_presale_mint_whitelisted = "Estas WHITELISTED para la Pre-Venta! 🎉  You're on the WHITELIST for the Pre-Sale! 🎉";
+const p_presale_mint_already_minted = "Ya reclamaste tu mint WHITELISTDED.  Gracias! 🎉 You've already claimed your whitelist mint. Thank you! 🎉";
+const p_public_mint = "No se ocupa estar WHITELISTED.  Mint Publico esta abierto! 🎉 No WHITELIST needed. Public minting is now open! 🎉";
+const button_presale_coming_soon = "Se WHITELISTED! Get on the Whitelist!";
+const button_presale_mint_whitelisted = "Mintea tu NFT de . Mint Your NFT";
+const button_presale_mint_not_whitelisted = "Se WHITELISTED. Get on the Whitelist!";
+const button_presale_already_minted = "Unete a La Comunidad. Join The Community";
+const button_public_mint = "Mintea tu NFT. Mint Your NFT";
+const mint_failed = "Error al Mintear. 😢 Intende de nuevo. Minting failed. 😢 Please try again.";
 
 const abi = [
   {
