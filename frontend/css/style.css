@@ -233,6 +233,8 @@ section {
 .mint-container {
   width: 100%;
   display: flex;
+  width: 300px;
+  height: 300px;
   flex-direction: column;
   justify-content: center;
 }
