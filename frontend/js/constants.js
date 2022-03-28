@@ -1,4 +1,4 @@
-const contractAddress = "0xD463507A2A769f72f6Bfa17c8c85c8512380E791"; //Replace with your own contract address
+const contractAddress = "0x38AC56fCe5BD614297A8328e76455350326AEC3F"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Bienvendios a METABOXERS® by Alfonso Gomez!!";
