@@ -12,7 +12,7 @@
   --bg-color-transparent: #94126780;
   --font-color: #ffffff;
   --btn-bg-color: #953EE2;
-  --accent-color: #281466;
+  --accent-color: #ff7300;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -35,10 +35,10 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 1rem 2rem;
-  justify-content: center;
+  justify-content: right;
   overflow: hidden;
 }
 
@@ -141,8 +141,8 @@ header .container {
 .card {
   position: relative;
   background-color: var(--bg-color);
-  border-radius: 5px;
-  border: 3px solid var(--accent-color);
+  border-radius: 100px;
+  border: 5px solid var(--accent-color);
   box-shadow: var(--card-shadow);
   padding: 5rem;
   margin-bottom: 2rem;
@@ -233,8 +233,6 @@ section {
 .mint-container {
   width: 100%;
   display: flex;
-  width: 300px;
-  height: 300px;
   flex-direction: column;
   justify-content: center;
 }
