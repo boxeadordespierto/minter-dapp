@@ -74,7 +74,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "METABOXERS® by Alfonso Gomez will be REVEALED during PUBLIC SALE on May 7th to mint for 0.1 ETH. Join our Discord to get Whitelisted and mint your METABOXERS® for 0.05 ETH before THE REVEAL/PUBLIC SALE.  METABOXERS® por Alfonso Gomez seran REVELADOS durante la VENTA PUBLICA, Mayo 7, 2022 para ser minteados por 0.1 ETH. Unete a nuestro Discord para ser Whitelisted y minetear tus METABOXERS® por 0.05 ETH antes de LA REVELACION/VENTA PUBLICA."; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "METABOXERS® by Alfonso Gomez seran revelados inmediatamente despues de adquirirlo. ."; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeiatdrsdw6zilewyedjtovgtfnp36sih2la3maznselnc6aa4fske4"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
