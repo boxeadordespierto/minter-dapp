@@ -10,10 +10,13 @@
   --font-code: "Roboto", monospace;
   --bg-color: #941267;
   --bg-color-transparent: #94126780;
+  --bg-color-main: #480048;
+  --bg-color-header: #08043c;
   --font-color: #ffffff;
   --btn-bg-color: #953EE2;
   --accent-color: #ffa70e;
   --header-shadow: var(--accent-color) 0px 0px 5px;
+  --header-shadow-button: var(--accent-color-b) 0px 0px 5px;
   --card-shadow: var(--accent-color) 2px 2px 20px;
 }
 
@@ -24,7 +27,7 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-main);
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -35,7 +38,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: right;
@@ -45,7 +48,7 @@ body {
 /* HEADER */
 
 header {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-header);
   box-shadow: var(--header-shadow);
 }
 
